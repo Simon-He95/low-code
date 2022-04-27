@@ -1,0 +1,9 @@
+{
+  "name": "low-code",
+  "private": true,
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.6",
+    "vue": "^3.2.33"
+  }
+}

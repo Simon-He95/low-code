@@ -1,0 +1,14 @@
+{
+  "name": "editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build":"vite build"
+  },
+  "keywords": [],
+  "author": "simon",
+  "license": "ISC"
+}
