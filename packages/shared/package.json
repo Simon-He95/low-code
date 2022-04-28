@@ -1,5 +1,5 @@
 {
-  "name": "@smion/shared",
+  "name": "simon-shared",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.cjs",
@@ -9,6 +9,9 @@
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "unbuild"
