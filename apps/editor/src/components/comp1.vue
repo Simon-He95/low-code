@@ -4,10 +4,10 @@ const props = defineProps<{ modelValue: boolean }>()
 
 <template>
   <div>
-    hi
-    <Comp1/>
+    wo shi comp1
   </div>
 </template>
 
 <style scoped>
 </style>
+
