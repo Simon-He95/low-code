@@ -6,6 +6,7 @@ const props = defineProps<{ modelValue: boolean }>()
   <div>
     hi
     <Comp1/>
+    <lc-image/>
   </div>
 </template>
 

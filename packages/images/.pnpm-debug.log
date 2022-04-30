@@ -1,0 +1,46 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "total": 4,
+    "workspacePrefix": "/mnt/d/GitHub/low-code"
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "editor",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "private": true,
+      "scripts": {
+        "dev": "vite --port 3000",
+        "build": "vite build"
+      },
+      "keywords": [],
+      "author": "simon",
+      "license": "ISC",
+      "dependencies": {
+        "@simon/shared": "workspace:^1.0.0"
+      }
+    },
+    "prefix": "/mnt/d/GitHub/low-code/apps/editor"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "/mnt/d/.pnpm-store/v3",
+    "virtualStoreDir": "/mnt/d/GitHub/low-code/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/mnt/d/GitHub/low-code",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_NO_MATCHING_VERSION_INSIDE_WORKSPACE",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "In ../../apps/editor: No matching version found for @simon/shared@^1.0.0 inside the workspace",
+      "code": "ERR_PNPM_NO_MATCHING_VERSION_INSIDE_WORKSPACE",
+      "stack": "pnpm: In ../../apps/editor: No matching version found for @simon/shared@^1.0.0 inside the workspace\n    at tryResolveFromWorkspace (/snapshot/dist/pnpm.cjs)\n    at resolveNpm (/snapshot/dist/pnpm.cjs)\n    at Object.resolve (/snapshot/dist/pnpm.cjs)\n    at /snapshot/dist/pnpm.cjs\n    at run (/snapshot/dist/pnpm.cjs)\n    at PQueue._tryToStartAnother (/snapshot/dist/pnpm.cjs)\n    at /snapshot/dist/pnpm.cjs\n    at new Promise (<anonymous>)\n    at PQueue.add (/snapshot/dist/pnpm.cjs)\n    at resolveAndFetch (/snapshot/dist/pnpm.cjs)"
+    }
+  }
+}

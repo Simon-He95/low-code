@@ -9,6 +9,9 @@ export interface IMaterialData {
 
 export interface IMaterial extends IMaterialData {
   id: number
+  name: string
+  title: string
+  thumbnail: string
   type: string
   category: ICategory
   data: IMaterialData[]

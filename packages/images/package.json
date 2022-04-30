@@ -1,5 +1,5 @@
 {
-  "name": "simon-shared",
+  "name": "simon-images",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.cjs",
@@ -10,17 +10,15 @@
       "import": "./dist/index.mjs"
     }
   },
+  "scripts": {
+    "build": "vite build"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Simon-He95/low-code"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "scripts": {
-    "build": "unbuild",
-    "stub":"unbuild --stub", 
-    "test":"vitest"
   },
   "files": [
     "dist"
@@ -29,6 +27,6 @@
     "low-code",
     "typescript"
   ],
-  "author": "simon",
+  "author": "",
   "license": "ISC"
 }

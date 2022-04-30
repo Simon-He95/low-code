@@ -12,6 +12,6 @@
   "author": "simon",
   "license": "ISC",
   "dependencies": {
-    "@simon/shared": "workspace:^1.0.0"
+    "simon-shared": "workspace:^1.0.0"
   }
 }
