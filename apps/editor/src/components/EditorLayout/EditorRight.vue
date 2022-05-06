@@ -3,11 +3,11 @@ const props = defineProps<{ modelValue: boolean }>()
 </script>
 
 <template>
-  <div>
-    wo shi comp1
+  <div h-full
+       overflow-y-auto>
+    right
   </div>
 </template>
 
 <style scoped>
 </style>
-

@@ -3,10 +3,13 @@ const props = defineProps<{ modelValue: boolean }>()
 </script>
 
 <template>
-  <Layout>
-    <router-view></router-view>
-  </Layout>
-
+  <div flex="~"
+       justify-center
+       items-center
+       h-full
+       bg-slate-50>
+    Header~~
+  </div>
 </template>
 
 <style scoped>

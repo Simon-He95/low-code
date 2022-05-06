@@ -1,8 +1,10 @@
 import { IMaterial } from 'simon-shared'
 import { createApp } from 'vue'
 import App from './App.vue'
-// import { Project } from 'simon-shared'
 import { loadScript } from './utils'
+import 'uno.css'
+import './main.less'
+import router from './router'
 
 const materialList: IMaterial[] = [
   {
@@ -31,5 +33,6 @@ Promise.all(materialList.map(material => loadScript(material.source))).then(() =
     const { render, editorProps } = (window as any)[material.name]
     app.component(material.name, render)
   })
+  app.use(router)
   app.mount('#app')
 })

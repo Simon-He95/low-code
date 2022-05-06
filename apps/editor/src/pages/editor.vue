@@ -3,10 +3,9 @@ const props = defineProps<{ modelValue: boolean }>()
 </script>
 
 <template>
-  <Layout>
-    <router-view></router-view>
-  </Layout>
-
+  <div>
+    editor.html
+  </div>
 </template>
 
 <style scoped>
